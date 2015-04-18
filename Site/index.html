@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Ventures</title>
+
+    <script src="libs/d3/d3.min.js" charset="utf-8"></script>
+    <script src="libs/jquery/jquery-2.1.1.min.js" charset="utf-8"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css">
+
+    <script src = "js/bubblevis.js"></script>
+    <script src = "js/areavis.js"></script>
+    <script src = "js/exitsvis.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <h1>∆ Ventures</h1>
+               <p>Lorem cred Wes Anderson roof party umami. Paleo Bushwick twee, YOLO 90's fashion.</p>
+            </div>
+            <div class="col-md-8 col-sm-12">
+                <div class="row text-center contrast">
+                    <div class="col-md-3 sector-biotech">
+                        <div class="col-sm-12">
+                            <div id="bubble_health">
+                                <h4>Health</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 sector-biotech">
+                        <div class="col-sm-12">
+                            <div id="bubble_hardware">
+                                <h4>Hardware</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 sector-biotech">
+                        <div class="col-sm-12">
+                            <div id="bubble_business">
+                                <h4>Business</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 sector-software">
+                        <div class="col-sm-12">
+                            <div id="bubble_software">
+                                <h4>Software</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        
+        <div class="row color1">
+            <div class="col-md-9 col-sm-12">
+                <div id="vis-deals" class="main-vis">
+                    <h2>Deal counts by Sector</h2>
+                </div>
+            </div>
+            <div id="side-vis" class="col-md-3 col-sm-12">
+                <div id="vis-exits" class="complementary-graph">
+                    <h2>Exits</h2>
+                    <div class="chart"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="brush contrast col-md-9 col-sm-12">
+                Brush
+            </div>
+            <div id="compl-filters" class="contrast col-md-3">
+                Filters
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 sankey color1">
+             Additional Vis (Sankey maybe?)
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <script>
+
+
+        $(function(){
+
+            // Load the json files asynchronously
+            function asyncCounter(wait_for_n, callback){
+                this.callback = callback;
+                this.wait_for_n = wait_for_n;
+                this.n = 0;
+            };
+
+            asyncCounter.prototype.increment = function(){
+                if(this.n++ === this.wait_for_n){
+                    this.callback();
+                }
+            };
+
+            // Global var for data
+            var allData = [];
+            var metaData = {};
+
+            var dateFormatter = d3.time.format("%Y-%m-%d");
+
+            // Call after data load
+            var initVis = function(){
+                var MyEventHandler = new Object();
+                var bubble_health = new BubbleVis(
+                                        d3.select("#bubble_health"), 
+                                        allData,
+                                        metaData,
+                                        MyEventHandler,
+                                        0);
+
+            var bubble_health = new BubbleVis(
+                                    d3.select("#bubble_hardware"), 
+                                    allData,
+                                    metaData,
+                                    MyEventHandler,
+                                    1);
+            
+            var bubble_health = new BubbleVis(
+                                    d3.select("#bubble_business"), 
+                                    allData,
+                                    metaData,
+                                    MyEventHandler,
+                                    2);
+            
+            var bubble_health = new BubbleVis(
+                                    d3.select("#bubble_software"), 
+                                    allData,
+                                    metaData,
+                                    MyEventHandler,
+                                    3);
+
+            var vis_exits = new ExitsVis(
+                                    d3.select("#vis-exits"), 
+                                    allData,
+                                    metaData,
+                                    MyEventHandler,
+                                    1);
+
+            var vis_deals = new AreaVis(
+                                    d3.select("#vis-deals"), 
+                                    allData,
+                                    metaData,
+                                    MyEventHandler,
+                                    1);
+            
+            
+
+                $(MyEventHandler).bind("selectionChanged", function (event, from, to){
+                    if (String(from) == String(to)) {
+                        from = null;
+                        to = null
+                    }
+                    age_vis.onSelectionChange(from, to);
+                });
+            }
+
+            // call this function after both files are loaded -- error should be "null" if no error
+            var dataLoaded = function (error, _allData) {
+                if (!error) {
+
+
+                    metaData = _allData.column_names;
+                    allData = [[],[],[],[]];
+
+                    for (var i = 0; i <4; i++) {
+                        allData[i] = d3.range(25).map(function () {
+                            return 0;
+                        });
+                    };
+
+                    _allData.data.map(function (d) {
+                        var yr = d[0].substring(0, 4);
+                        yr = yr - 1990;
+
+                        if (yr >= 0) {
+                            allData[0][yr] += d[1] + d[7] + d[11];
+                            allData[1][yr] += d[3] + d[5] + d[9] + d[12];
+                            allData[2][yr] += d[6] + d[14] + d[2];
+                            allData[3][yr] += d[16];
+                        }
+                    });
+                    initVis();
+                }
+            }
+
+            var startHere = function(){
+
+                var jsonLoadCounter = new asyncCounter(0, function () {
+                    console.log("Data loaded")
+                    dataLoaded(null, allData);
+                });
+
+                d3.json("data/industries.json", function(error, data) {
+                    allData = data;
+                    jsonLoadCounter.increment();
+                });
+            }
+
+            startHere();
+        })
+
+        var getInnerWidth = function(element) {
+            var style = window.getComputedStyle(element.node(), null);
+
+            return parseInt(style.getPropertyValue('width'));
+        }
+
+        var getInnerHeight = function(element) {
+            var style = window.getComputedStyle(element.node(), null);
+
+            return parseInt(style.getPropertyValue('height'));
+        }
+
+
+    </script>
+</body>
+</html>
