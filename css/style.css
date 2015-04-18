@@ -1,0 +1,105 @@
+/* @override http://localhost:8000/css/style.css */
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+.axis text {
+    font: 10px sans-serif;
+}
+
+.axis line,
+.axis path {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.boundingBox{
+    cursor: pointer;
+    fill: grey;
+    fill-opacity: .3;
+    pointer-events: all;
+}
+
+.brush{
+    fill: darkgrey;
+    fill-opacity: .5;
+    pointer-events: none;
+}
+
+.bar {
+  cursor: pointer;
+}
+
+.bar rect {
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 0.5px;
+}
+
+.area {
+  fill: steelblue;
+  clip-path: url(#clip);
+}
+
+.brush .extent {
+  stroke: #fff;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
+
+.main-vis {
+  height: 400px;
+}
+
+#side-vis div.row div.complementary-graph.col-sm-12 {
+  
+}
+
+#compl-filters {
+  height: 85px;
+}
+
+.brush {
+  height: 85px;
+}
+
+.contrast {
+  background-color: #F26C4F;
+}
+
+.color1 {
+  background-color: #E9F2F9;
+}
+
+.color2 {
+  background-color: #9CC4E4;
+}
+
+.color3 {
+  background-color: #3A89C9;
+}
+
+.color4 {
+  background-color: #1B325F;
+}
+
+.complementary-graph {
+  height: 400px;
+}
+
+.sankey {
+  height: 250px;
+}
+
+.chart div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
