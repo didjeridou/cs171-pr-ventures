@@ -1,0 +1,25 @@
+.text-center {
+  text-align: center;
+}
+
+.todo-vis {
+  height: 450px;
+  background-color: #ecf0f1;
+}
+
+section {
+	margin-top: 50px;
+}
+
+.hidden {
+	display: none;
+}
+
+.controls-container {
+	height: 300px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.9);
+	border-top: 1px solid #33c3f0;
+}
