@@ -1,0 +1,59 @@
+[
+    {
+        "key": "Series D",
+        "color": "#ffb26d",
+        "values": [{
+            "label": "Series D",
+            "value": 27.01
+        }]
+    },
+    {
+        "key": "Series C",
+        "color": "#ff7310",
+        "values": [{
+            "label": "Series C",
+            "value": 19.36
+        }]
+    },
+    {
+        "key": "Series B",
+        "color": "#a4c0e5",
+        "values": [{
+            "label": "Series B",
+            "value": 13.58
+        }]
+    },
+    {
+        "key": "Series A",
+        "color": "#1b6cab",
+        "values": [{
+            "label": "Series A",
+            "value": 6.72
+        }]
+    },
+    {
+        "key": "Venture",
+        "color": "#d02223",
+        "values": [{
+            "label": "Venture",
+            "value": 5.88
+        }]
+    },
+    {
+        "key": "Angel",
+        "color": "#279527",
+        "values": [{
+            "label": "Angel",
+            "value": 1.00
+        }]
+    },
+    {
+        "key": "Seed",
+        "color": "#8dda7f",
+        "values": [{
+            "label": "Seed",
+        "value": 0.99
+        }]
+    }
+
+]
