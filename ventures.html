@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Ventures :)</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/complement.css">
+
+  <link rel="stylesheet" href="css/nv.d3.min.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <section class="header">
+      <h1 class="title">VENTURES</h1>
+      <h3>The Story of 40K Startups and One Trillion Dollars</h3>
+
+      <a id="get_started" class="button button-primary" href="#c1" onclick="$('#c1').removeClass('not_visible')">Get Started</a>
+
+      <div class="value-props row">
+        <div class="four columns value-prop">
+          <img class="value-img" src="images/pie2.svg">
+          In 15 years, over $220 billion was invested in startups. That money is now <b>worth well over $1 trillion</b>
+        </div>
+        <div class="four columns value-prop">
+          <img class="value-img" src="images/cb.png">
+          <b>Visualize data from CrunchBase</b>, the definitive database of the startup ecosystem
+        </div>
+        <div class="four columns value-prop">
+          <img class="value-img" src="images/cali.svg">
+          Learn when and where investments are made, and <b>how you can optimize your fundraising</b>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+
+
+  <div class="container-100">
+
+
+
+    <section id="c1" class="funding c1 not_visible">
+      <div class="space-s"></div>
+      <h2 class="title text-center">Chapter One: Money</h2>
+      <div class="row text-center">
+        <div class="eight columns offset-by-two">
+          <p>Young companies seek money from investors at different stages called "Rounds" </br>
+          <span class="question"><b>The Question: When is the best time to fundraise and what are the trends?</b></span>
+          </p>
+        </div>
+        <div class="space-m"></div>
+      </div>
+      <div class="chapter">
+        <div class="row text-center padded">
+          <div class="four columns">
+            <h4>Seed Round</h4>
+            The "seed" is the first investment the startup gets and is tipically below $1mm. Angel money is similar, often offered by an influencer.
+          </div>
+          <div class="four columns">
+            <h4>Venture Round</h4>
+            Venture capital is often the second investment a startup gets, after the seed. It may or may not be as a Series A.
+          </div>
+          <div class="four columns">
+            <h4>Series A,B,C</h4>
+            When a company requires even more capital, institutional investors will invest in the "Series A", often acquiring 10% to 30% of the company.
+          </div>
+        </div>
+        <div class="space-m"></div>
+        <div class="vis-block-1">
+          <div class="row padded">
+            <h4 class="text-center">
+              Analysis of Deals in the US & Canada Over 10 Years
+            </h4>
+            <div class="space-s"></div>
+          </div>
+          <div class="row padded">
+            <div class="eight columns">
+              <h5 class="text-center">number of deals per month</h5>
+              <div class="vis-300 ">
+                <svg id="deals"></svg>
+              </div>
+            </div>
+            <div class="four columns">
+              <h5 class="text-center">average deal value ($mm)</h5>
+              <div class="vis-300 ">
+                <svg id="deal_size"></svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="findings">
+          <h4>Findings</h4>
+          <div class="row">
+            <div class="four columns">
+              <div class="row">
+                <div class="five columns">
+                  <img class="findings-img" src="images/peaks.png">
+                </div>
+                <div class="seven columns">
+                  JANUARY = MONEY
+                  <p>
+                    Do investors feel more generous around X-mas? Perhaps, but it's more likely because many firms want to close deals in December before the end of the fiscal year. Deals are often only disclosed a few weeks later, in January.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="four columns">
+              <div class="row">
+                <div class="five columns">
+                  <img class="findings-img" src="images/seed_to_series.png">
+                </div>
+                <div class="seven columns">
+                  SEED TO SERIES A
+                  <p>
+                    While more companies get seed funding, it seems like the Series A numbers are relatively stable. Are young entrepreneurs better at creating hype than value? Or do companies need less capital to grow? 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="four columns">
+              <div class="row">
+                <div class="five columns">
+                  <img class="findings-img" src="images/2008.png">
+                </div>
+                <div class="seven columns">
+                  THE 2008 CRISIS
+                  <p>
+                    2008 left its mark in the startup world, but perhaps not in the way you would expect: venture deals nearly tripled from 2008 to 2010. The Crash showed investors that the stock market could be just as risky as startup, minus the huge potential upside.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="whatsnext">
+          <h2>Chapter Two: Outside The Valley</h2>
+          <p>
+            Silicon Valley hogs all the attention, but are there other hubs?
+          </p>
+        </div>
+        <a id="next_chapter" class="button button-primary" href="#c2" onClick="$('#c2').removeClass('not_visible');">Next Chapter</a>
+      </div>
+    </section>
+
+      
+    <section id="c2" class="region c2 not_visible">
+      <div class="space-m"></div>
+      <h2 class="title text-center">Chapter Two: Outside The Valley</h2>
+      <div class="row text-center">
+        <div class="eight columns offset-by-two">
+          <p>No wonder why HBO named its <a href="http://www.hbo.com/silicon-valley#/" target="_blank">new startup series Silicon Valley</a>: more startups come from The Valley than any other region. But living in the valley may not be you best bet: competition is intense costs of living high. Hence the question, <b>where are the other startup hubs?</b></p>
+        </div>
+      </div>
+
+      <div class="row padded">
+        <div class="nine columns">
+          <div id="na-map" class="text-center" style="width: 100%;">
+          </div>
+        </div>
+        <div class="three columns">
+<!--           CALIFORNIA
+          <p>
+            When it comes to startups, California is the place to be. More deals were completed in the state alone than in all other states together.
+          </p>
+ -->      
+          <h4>Findings</h4>
+          <p>
+            <b>New York City</b></br>
+            Outside The Valley, New York City is where most deals get closed.</br></br>
+            <b>Massachussets</b></br>
+            Not too far behind is Massachussets, powered by the Boston community and the vibrant Cambridge academic scene.</br></br>
+            <b>Texas</b></br>
+            Austin, Houston and Dallas together pull Texas up to the third place, right in front of the state of Washington.
+          </p>
+        </div>
+      </div>
+      <div class="space-m"></div>
+      <div class="menu">
+        <div class="whatsnext">
+          <h2>Chapter Three: The Odds</h2>
+          <p>
+            And of these startups, how many of them succeed?
+          </p>
+        </div>
+        
+        <a id="next_chapter" class="button button-primary" href="#c3" onClick="$('#c3').removeClass('hidden');">Next Chapter</a>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <section id="c3" class="sankey hidden">
+      <div class="space-m"></div>
+      <h2 class="title text-center">Chapter Three: The Odds</h2>
+      <div class="row text-center">
+        <div class="eight columns offset-by-two">
+          <p>No wonder why HBO named its new startup series Silicon Valley</p>
+        </div>
+      </div>
+      <div class="space-s"></div>
+
+      <div class="row">
+        <div class="twelve columns">
+          <div class="vis-block-1 ">
+            <div class="row padded">
+              <div class="eight columns">
+                <h4 class="text-center">75% never reach Series A</h4>
+                <p class="text-center">
+                  ...And that holds for startups that already got seed or angel money.
+                </p>
+                <div id="sankeyvis">
+                </div>
+              </div>
+              <div class="four columns">
+                <h4>But 62% who gets to Series A have a much better chance</h4>
+                <p>
+                  And the 5-6% who reach Series D+ win big
+                </p>
+                <div id="table_div">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="whatsnext">
+          <h2>Chapter Four: The Unicorns</h2>
+          <p>
+            Yes, they are called Unicorns
+          </p>
+        </div>
+        <a id="next_chapter" class="button button-primary" href="#c4" onClick="$('#c4').removeClass('hidden');">Next Chapter</a>
+      </div>
+    </section>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <div id="c4" class="container hidden">
+    <section class="unicorns">
+      <div class="space-m"></div>
+
+      <h2 class="title text-center">Chapter Four: The Unicorns</h2>
+      <div class="row text-center">
+        <div class="eight columns offset-by-two">
+          <p>UNICORN wonder why HBO named its new startup series Silicon Valley</p>
+        </div>
+      </div>
+      <div class="space-s"></div>
+
+      <div class="row">
+        <div class="twelve columns">
+          <div class="vis-block-1 ">
+            Temp
+          </div>
+        </div>
+      </div>
+
+      <div class="value-props row">
+        <div class="three columns offset-by-two">
+          Image here
+        </div>
+        <div class="five columns">
+          Styles designed to be a starting point, not a UI framework.
+          Styles designed to be a starting point, not a UI framework.
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+<!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="libs/d3/d3.min.js" charset="utf-8"></script>
+  <script src="libs/jquery/jquery-2.1.1.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.5/jquery.smooth-scroll.min.js" charset="utf-8"></script>
+  <script src="libs/nv.d3.min.js" charset="utf-8"></script>
+  <script src="libs/sankey.js" charset="utf-8"></script>
+  <script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1.1','packages':['geochart']}]}"></script>
+  <script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1.1','packages':['table']}]}"></script>
+
+
+  <script type="text/javascript">
+    $('a').smoothScroll();
+
+     // var spacers = $('.chapter'),
+     //     menu = $('.menu'),
+     //     $window = $(window),
+     //     showMenu = function() {
+     //         if (isHidden) {
+     //             isHidden = false;
+     //             menu.show();
+     //         }
+     //     },
+     //     hideMenu = function() {
+     //         if (!isHidden) {
+     //             isHidden = true;
+     //             menu.hide();
+     //         }
+     //     },
+     //     isHidden = true,
+     //     scrollTop;
+// 
+     // if (spacers.length) {
+     //     $window.on('scroll', function() {
+     //         var flag = false;
+    // 
+     //         scrollTop = $window.scrollTop();
+     //         $.each(spacers, function(i, spacer) {
+     //             var $spacer = $(spacer),
+     //                 offset = $spacer.offset().top;
+     //          
+     //             if (offset < scrollTop && offset + $spacer.height() > // scrollTop) {
+     //                 flag = true;
+     //                 return false;
+     //             }
+     //         });
+     //      
+     //         if (flag) {
+     //             showMenu();
+     //         } else {
+     //             hideMenu();
+     //         }
+     //     });
+     // }
+
+
+  </script>
+
+
+  <script src = "js/stackedarea.js"></script>
+  <script src = "js/datascript.js"></script>
+  <script src = "js/geomap.js"></script>
+  <script src = "js/table.js"></script>
+  <script src = "js/script.js"></script>
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
