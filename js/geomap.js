@@ -15,11 +15,6 @@ function drawRegionsMap() {
           resolution: 'provinces',
           displayMode: 'region',
           keepAspectRatio: true,
-          chartArea: {
-                      left: "25%",
-                      top: "3%",
-                      width: "100%"
-                  },
           colorAxis: {
               colors: ['yellow', 'red']
           }

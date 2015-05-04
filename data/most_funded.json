@@ -1,0 +1,18 @@
+[
+    ["Groupon" , "D", {"v": 950000000, "f": "$950mm"}, "Retail", "IL"],
+    ["Cloudera" , "F", {"v": 900000000, "f": "$900mm"}, "Software", "CA"],
+    ["Magic Leap" , "B", {"v": 542000000, "f": "$542mm"}, "Video", "FL"],
+    ["Lyft" , "E", {"v": 530000000, "f": "$530mm"}, "Software", "CA"],
+    ["Airbnb" , "D", {"v": 475000000, "f": "$475mm"}, "Travel", "CA"],
+    ["GreatPoint Energy" , "D", {"v": 420000000, "f": "$420mm"}, "Clean Tech", "MA"],
+    ["QuantRx Biomedical" , "VC", {"v": 406039700, "f": "$406mm"}, "Biotech", "OR"],
+    ["Pinterest" , "G", {"v": 367000000, "f": "$367mm"}, "Social Media.", "CA"],
+    ["Dropbox" , "C", {"v": 350000000, "f": "$350mm"}, "Storage", "CA"],
+    ["Nanosolar" , "D", {"v": 300000000, "f": "$300mm"}, "Clean Tech", "CA"],
+    ["Ikaria" , "B", {"v": 280000000, "f": "$280mm"}, "Biotech", "NJ"],
+    ["HomeAway" , "E", {"v": 250000000, "f": "$250mm"}, "Travel", "TX"],
+    ["Inspiration Biopharmaceuticals" , "VC", {"v": 247640946, "f": "$247mm"}, "Biotech", "CA"],
+    ["Facebook" , "C", {"v": 240000000, "f": "$240mm"}, "Social Media", "CA"],
+    ["Pure Storage" , "F", {"v": 225000000, "f": "$225mm"}, "Software", "CA"],
+    ["Instacart" , "C", {"v": 220000000, "f": "$220mm"}, "E-Commerce", "CA"]
+]

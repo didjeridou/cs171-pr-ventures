@@ -1,12 +1,3 @@
-/* @override http://localhost:8000/css/style.css */
-
-/* @override http://localhost:8000/css/style.css */
-
-/* @override http://localhost:8000/css/style.css */
-
-/* @override http://localhost:8000/css/style.css */
-
-/* @override http://localhost:8000/css/style.css */
 
 
 /* @override http://localhost:8000/css/style.css */
@@ -181,4 +172,22 @@ section {
 
 #na-map div {
 	display: inline-block;
+}
+
+
+th.google-visualization-table-th.gradient {
+	background-image: none;
+}
+
+th.google-visualization-table-th {
+	background-color: #33c3f0;
+	background-image: none;
+	border: none;
+	color: #ffffff;
+}
+
+tr.google-visualization-table-tr-head {
+	background-color: transparent;
+	
+	
 }

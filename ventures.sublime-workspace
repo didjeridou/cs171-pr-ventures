@@ -1,0 +1,1032 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"jso",
+				"jsondata"
+			],
+			[
+				"nv",
+				"nv-group"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"me",
+				"metaData"
+			],
+			[
+				"n",
+				"ndata"
+			],
+			[
+				"brow",
+				"browsers"
+			],
+			[
+				"load",
+				"load_string"
+			],
+			[
+				"data",
+				"data_to_mem"
+			],
+			[
+				"_d",
+				"_d_ref"
+			],
+			[
+				"pars",
+				"parse_cfna"
+			],
+			[
+				"lcp",
+				"lcp_array_from_seq"
+			],
+			[
+				"strin",
+				"string_of_lcp_single"
+			],
+			[
+				"i",
+				"index"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"str",
+				"string_of_subseq"
+			],
+			[
+				"string_",
+				"string_of_lcp"
+			],
+			[
+				"hd",
+				"hdB_tl"
+			],
+			[
+				"lc",
+				"lcp_single"
+			],
+			[
+				"lcp_",
+				"lcp_max"
+			],
+			[
+				"string",
+				"strings"
+			],
+			[
+				"max",
+				"max_lcp"
+			],
+			[
+				"do",
+				"double_seq"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"li",
+				"list_data"
+			],
+			[
+				"fou",
+				"found_at"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"exit",
+				"exit_program"
+			],
+			[
+				"opn",
+				"opened_cfna"
+			],
+			[
+				"inp",
+				"input_line"
+			],
+			[
+				"ava",
+				"avail_commands"
+			],
+			[
+				"as",
+				"ask_filename"
+			],
+			[
+				"fil",
+				"files_array"
+			],
+			[
+				"printi",
+				"print_string"
+			],
+			[
+				"open",
+				"open_to_analyze"
+			],
+			[
+				"print",
+				"print_string"
+			],
+			[
+				"dna",
+				"dna_from_cfna"
+			],
+			[
+				"ue",
+				"use_cfna"
+			],
+			[
+				"tes",
+				"test_sequence"
+			],
+			[
+				"op",
+				"open_dna_file"
+			],
+			[
+				"DNA",
+				"DNASeq"
+			],
+			[
+				"Order",
+				"Ordering"
+			],
+			[
+				"Suffi",
+				"SuffixArrayDNASeq"
+			],
+			[
+				"sub",
+				"subseq"
+			],
+			[
+				"patt",
+				"pattern_search"
+			],
+			[
+				"from",
+				"from_string"
+			],
+			[
+				"suff",
+				"suffix"
+			],
+			[
+				"SA",
+				"SUFFIXARRAY_ARG"
+			],
+			[
+				"to",
+				"to_string"
+			],
+			[
+				"st",
+				"string_of_suffix"
+			],
+			[
+				"sa",
+				"sarray"
+			],
+			[
+				"in",
+				"int_c"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"d",
+				"dCount"
+			],
+			[
+				"log",
+				"logs"
+			],
+			[
+				"py",
+				"pylab"
+			],
+			[
+				"next_direction",
+				"next_direction_default"
+			],
+			[
+				"bea",
+				"bear_pos"
+			],
+			[
+				"meta",
+				"metaData"
+			],
+			[
+				"the",
+				"the_cave"
+			],
+			[
+				"hon",
+				"honey_list"
+			],
+			[
+				"ma",
+				"max_consumed_objects"
+			],
+			[
+				"sme",
+				"smelly_counter"
+			],
+			[
+				"sm",
+				"smelly_object_limit"
+			],
+			[
+				"spawn",
+				"spawn_bear_pollen"
+			],
+			[
+				"get_pollen",
+				"get_pollen_event"
+			],
+			[
+				"polle",
+				"pollen_count"
+			],
+			[
+				"bee",
+				"bee_type"
+			],
+			[
+				"new",
+				"new_direction"
+			],
+			[
+				"direct",
+				"direction_from_to"
+			],
+			[
+				"pollen",
+				"pollen_types"
+			],
+			[
+				"sen",
+				"sensing_range"
+			],
+			[
+				"worl",
+				"world_object_i"
+			],
+			[
+				"next_di",
+				"next_direction_default"
+			],
+			[
+				"poll",
+				"pollen_id"
+			],
+			[
+				"dra",
+				"draw_circle"
+			],
+			[
+				"flo",
+				"flower_lifetime"
+			],
+			[
+				"Wor",
+				"World"
+			],
+			[
+				"draw",
+				"draw_life"
+			],
+			[
+				"spw",
+				"spawn_bee"
+			],
+			[
+				"spa",
+				"spawn_probability"
+			],
+			[
+				"wi",
+				"with_inv_probability"
+			],
+			[
+				"ob",
+				"objects_within_range"
+			],
+			[
+				"wo",
+				"world_object_i"
+			],
+			[
+				"for",
+				"forfeit_honey"
+			],
+			[
+				"pol",
+				"pollen_count"
+			],
+			[
+				"wor",
+				"world_object_t"
+			],
+			[
+				"world",
+				"WorldObject"
+			],
+			[
+				"pro",
+				"produce_pollen"
+			],
+			[
+				"eaten",
+				"eaten_count"
+			],
+			[
+				"re",
+				"receive_pollen"
+			],
+			[
+				"mova",
+				"movable_t"
+			],
+			[
+				"mov",
+				"movable_t"
+			],
+			[
+				"dr",
+				"draw_circle"
+			],
+			[
+				"prev",
+				"prev_win"
+			],
+			[
+				"slo",
+				"slot_payments"
+			],
+			[
+				"per",
+				"per_click_payments"
+			],
+			[
+				"cl",
+				"clicks"
+			],
+			[
+				"update",
+				"update_spending"
+			],
+			[
+				"his",
+				"history"
+			],
+			[
+				"tot",
+				"total_clicks"
+			],
+			[
+				"ca",
+				"cash_flow"
+			],
+			[
+				"vali",
+				"valid_bids"
+			],
+			[
+				"tota",
+				"total_payment"
+			],
+			[
+				"just",
+				"just_bids"
+			],
+			[
+				"min",
+				"min_bid"
+			],
+			[
+				"slot",
+				"slot_info"
+			],
+			[
+				"inser",
+				"insert_upward_three"
+			],
+			[
+				"inse",
+				"insert_upward_three"
+			],
+			[
+				"three",
+				"three_2"
+			],
+			[
+				"d_th",
+				"d_three_1"
+			],
+			[
+				"insert_down",
+				"insert_downward"
+			],
+			[
+				"w_",
+				"w_left"
+			],
+			[
+				"gen",
+				"gen_key"
+			],
+			[
+				"m",
+				"m_height"
+			],
+			[
+				"r",
+				"r_height"
+			],
+			[
+				"righ",
+				"right_height"
+			],
+			[
+				"lef",
+				"left_height"
+			],
+			[
+				"done",
+				"done_left"
+			],
+			[
+				"insert_d",
+				"insert_downward"
+			],
+			[
+				"rig",
+				"right"
+			],
+			[
+				"oth",
+				"other_right"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 267.0,
+		"last_filter": "prett",
+		"selected_items":
+		[
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"pre",
+				"HTMLPrettify"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"htm",
+				"HTMLPrettify"
+			],
+			[
+				"ht",
+				"HTMLPrettify"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/css",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/js"
+	],
+	"file_history":
+	[
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/most_funded.json",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/js/table.js",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/css/style.css",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/index.html",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/50cities.json",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/js/datascript.js",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/js/script.js",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/js/geomap.js",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/ventures.html",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/hw/hw3/index.html",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/sankey.json",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/50cities.csv",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/states.json",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/js/stackedarea.js",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/libs/nv.d3.min.js",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/dealsize.json",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/test.csv",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/js/stacked.js",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/js/exitsvis.js",
+		"/Users/TheGuy/Desktop/temp/untitled.json",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/energy.json",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/test.html",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/libs/sankey.js",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/css/complement.css",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/test.json",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/months.json",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/stacked.json",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/stackedAreaData.json",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/s2.json",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/t/index.html",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/js/stackedarea2.js",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/t/data.tsv",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/Rounds_USA_CAN.csv",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences ZIP/code/README",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences ZIP/README.md",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/SuffixArray.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/DNASequence.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/sequences.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/tools.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences ZIP/code/tools.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/_data/common_cold.cfna",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/_data/small1.cfna",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/tests.do_not_try_to_compile.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/_data/small2.cfna",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/_data/ebola_r2.cfna",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/info.txt",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/alt/css/style.css",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/alt/index.html",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/tests.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/2/.ocamlinit",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/alt/css/complement.css",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/alt/index copy.html",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/_documents/intro.txt",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/clp/cal_add_sub_days.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/_data/test.cfna",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/5/dict.ml",
+		"/Users/TheGuy/Desktop/temp/untitled.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/_data/Escherichia_coli_K_12_substr__MDS42.cfna",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/_data/Bundibugyo_ebolavirus.cfna",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/_data/Marburg_marburgvirus.cfna",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/_data/Mopeia_Lassa_reassortant_29.cfna",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/_data/Lassa_virus.cfna",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/_data/Zaire_ebolavirus.cfna",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/_data/Tai_Forest_ebolavirus.cfna",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/_data/Sudan_ebolavirus.cfna",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/_data/Reston_ebolavirus.cfna",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/Makefile",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/test.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/_data/temp.dna",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/_data/ebola_bundibugyo.dna",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/_data/temp.dna.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/_data/test.dna",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/clp/cal_add_interactive.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/clp/cal_add_days.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/clp/basic_md5.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/5/myset.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/5/pagerank.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/structure.json",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/comparable.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/_tags.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/test copy.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/code/SuffixArray.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/code/sequences.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Sequences/order.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 186/Assignments/8/code/erdosRenyi.py",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 186/Assignments/8/code/pa.py",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 186/Assignments/7/pset7-code/primer.html",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 186/Assignments/5/pset5_code/lalibertebb.py",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/7/Cow.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/7/Pasture.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/7/Hive.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/7/Cave.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/7/Bear.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/7/Bee.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/7/Main.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/DNASequence/SuffixArray.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/DNASequence/main.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/DNASequence/DNASequence.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/DNASequence/data/test.dna.md",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/DNASequence/README.md",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Final Project/Code/DNASequence.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/Final Project/Code/suffixArray.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/Site/js/exitsvis.js",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/Site/js/areavis.js",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/Site/js/bubblevis.js",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/Site/css/style.css",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/Site/index.html",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/Site/README.md",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/Site/js/areavis2.js",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/Site/libs/bootstrap/css/bootstrap.min.css",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/Site/data/MandA.json",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/Site/data/ipos.json",
+		"/Users/TheGuy/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/Site/data/bySector.json",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/hw/hw3/README.md",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 186/Final/proposal.tex",
+		"/Users/TheGuy/Downloads/pset7.tex",
+		"/Users/TheGuy/Desktop/sctw-asst3.tex",
+		"/Users/TheGuy/Downloads/sarray/SuffixArray.java",
+		"/Users/TheGuy/Downloads/cs186hw6-master/primer.html",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/README.md",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/7/Flower.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/7/BeeBouncy.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/7/Pond.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/7/BeeRandom.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/7/Makefile",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/7/CarbonBased.ml",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/7/Dust.ml"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"http",
+			"hbo",
+			"next",
+			"menu",
+			"80%",
+			"horizont",
+			"y",
+			"x",
+			"year",
+			"a.color",
+			"label",
+			"colo",
+			"color",
+			"palantir",
+			"json",
+			"img",
+			"hidden",
+			"findings",
+			"cali",
+			"findings",
+			"controls-container",
+			"todo",
+			"controls-containe",
+			"header",
+			"next",
+			"1101877200000",
+			"]\n",
+			"1001908800",
+			"data",
+			"metada",
+			"data",
+			"browsers",
+			"consol",
+			"heig",
+			"transla",
+			" t",
+			" t ",
+			"formatPercent",
+			"dateFormatter",
+			"datef",
+			"browsers",
+			"AreaVis",
+			"./_data",
+			"./da",
+			"\"./_data\"",
+			"GAAGATTAAGAAAAAG",
+			"_data",
+			"data",
+			"load_cfna",
+			"#",
+			"empty s",
+			"AAACTAATGATGAAGATTAA",
+			"CTTCCGCCCTTGGAGTCAG",
+			"TTCCGCCCTTGGAGTCAGA",
+			"AAACTAATGATGAAGAT",
+			"AAAACTAATGATGAAGAT",
+			"AAAACTAATGATGAAGATT",
+			"CTTCCGCCCTTGGAGTCAGA",
+			"CTTCCGGA",
+			"TTCCGGACCAGGGGGACA",
+			"CTTCCGGACCAGGGGGACA",
+			"CTTCCGGACCAGGGGGACAA",
+			"console",
+			"avail",
+			"seven",
+			"String.",
+			"center",
+			"_controls",
+			"\n",
+			"meta",
+			"Meta",
+			"main",
+			"!_controls",
+			"_controls",
+			"cfna",
+			"data_files",
+			"Out",
+			"info_available_files",
+			"\n",
+			"\"",
+			"\n",
+			"lassa",
+			"\n",
+			"order",
+			"Equal",
+			"order",
+			"sequence",
+			"DNASEQUENCE",
+			"Dict",
+			" =",
+			"string",
+			"create",
+			"IntComparable",
+			"danger",
+			"neig",
+			"range",
+			"danger",
+			"die",
+			"part",
+			"AreaVis",
+			"BubbleVis",
+			"area",
+			"agev",
+			"AgeVis",
+			"get_pollen",
+			"none",
+			"smells",
+			"draw",
+			"per_",
+			"history",
+			"remain",
+			"LaliberteBB",
+			"laliber",
+			"Fini",
+			"BBAgent",
+			"bbagent",
+			"bb",
+			"test",
+			"lookup (",
+			"print",
+			"insert",
+			"IntStringDictArg",
+			"height",
+			"fold",
+			"todo",
+			"upward",
+			"AssocListDict",
+			"dict."
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"list_length"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 164.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 27.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Library/Caches/com.binarynights.ForkLift2/#0/database.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 127.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 239.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
