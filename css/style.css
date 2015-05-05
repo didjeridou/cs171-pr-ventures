@@ -1,3 +1,7 @@
+/* @override http://localhost:8000/css/style.css */
+
+/* @override http://localhost:8000/css/style.css */
+
 
 
 /* @override http://localhost:8000/css/style.css */
@@ -190,4 +194,18 @@ tr.google-visualization-table-tr-head {
 	background-color: transparent;
 	
 	
+}
+
+.nv-point {
+	stroke: #ffffff;
+	background-color: #989898;
+	stroke-width: 2px !important;
+}
+
+.nv-point:hover {
+	background-color: #cfcfcf !important;
+}
+
+.unicorn-logo {
+	width: 100%;
 }

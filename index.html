@@ -66,11 +66,7 @@
 
 
 
-
   <div class="container-100">
-
-
-
     <section id="c1" class="funding c1 not_visible">
       <div class="space-s"></div>
       <h2 class="title text-center">Chapter One: Money</h2>
@@ -205,7 +201,9 @@
             <b>Massachussets</b></br>
             Not too far behind is Massachussets, powered by the Boston community and the vibrant Cambridge academic scene.</br></br>
             <b>Texas</b></br>
-            Austin, Houston and Dallas together pull Texas up to the third place, right in front of the state of Washington.
+            Austin, Houston and Dallas together pull Texas up to the third place, right in front of the state of Washington.</br></br>
+            *Greyed out states did not have a significant number of deals (below 100)</br>
+            **California was not included, the numbers are just to high (over 5000)</br>
           </p>
         </div>
       </div>
@@ -221,16 +219,6 @@
         <a id="next_chapter" class="button button-primary" href="#c3" onClick="$('#c3').removeClass('hidden');">Next Chapter</a>
       </div>
     </section>
-
-
-
-
-
-
-
-
-
-
 
     <section id="c3" class="sankey hidden">
       <div class="space-m"></div>
@@ -280,14 +268,6 @@
   </div>
 
 
-
-
-
-
-
-
-
-
   <div id="c4" class="container hidden">
     <section class="unicorns">
       <div class="space-m"></div>
@@ -295,29 +275,76 @@
       <h2 class="title text-center">Chapter Four: The Unicorns</h2>
       <div class="row text-center">
         <div class="eight columns offset-by-two">
-          <p>UNICORN wonder why HBO named its new startup series Silicon Valley</p>
+          <p>Unicorns are the top 1% of the top 1%, the once-in-a-decade. They either have a valuation of over $10 B, went public (IPO) or are just massive successes. Here are five examples that capture the imagination of entrepreneurs.</p>
         </div>
       </div>
       <div class="space-s"></div>
 
-      <div class="row">
-        <div class="twelve columns">
-          <div class="vis-block-1 ">
-            Temp
-          </div>
+      <div class="value-props row">
+        <div class="three columns">
+          <img class="unicorn-logo" src="images/xiaomi.png">
+        </div>
+        <div class="nine columns">
+          <h3>Xiaomi</h3>
+
+          <h5>Valuation $46.0B | Beijing | Founded 2010</h5>
+          <p>Xiaomi designs, develops, and sells smartphones, mobile apps, and consumer electronics.</p>
         </div>
       </div>
-
       <div class="value-props row">
-        <div class="three columns offset-by-two">
-          Image here
+        <div class="three columns">
+          <img class="unicorn-logo" src="images/uber.jpg">
         </div>
-        <div class="five columns">
-          Styles designed to be a starting point, not a UI framework.
-          Styles designed to be a starting point, not a UI framework.
+        <div class="nine columns">
+          <h3>Uber</h3>
+
+          <h5>Valuation $41.2B | San Francisco | Founded 2009</h5>
+          <p>Uber is an on-demand personal driver mobild app.</p>
+        </div>
+      </div>
+      <div class="value-props row">
+        <div class="three columns">
+          <img class="unicorn-logo" src="images/airbnb.jpg">
+        </div>
+        <div class="nine columns">
+          <h3>Airbnb</h3>
+
+          <h5>Valuation $13.0B | San Francisco | Founded 2008</h5>
+          <p>Airbnb allows its users to "rent unique places to stay from local hosts in 190+ countries."</p>
+        </div>
+      </div>
+      <div class="value-props row">
+        <div class="three columns">
+          <img class="unicorn-logo" src="images/palantir.jpg">
+        </div>
+        <div class="nine columns">
+          <h3>Palantir</h3>
+
+          <h5>Valuation $15.0B | Palo Alto | Founded 2004</h5>
+          <p>Palantir is a big data company that offers software and services specialized in data analysis.</p>
+        </div>
+      </div>
+      <div class="value-props row">
+        <div class="three columns">
+          <img class="unicorn-logo" src="images/fb.jpg">
+        </div>
+        <div class="nine columns">
+          <h3>Facebook</h3>
+
+          <h5>Valuation $200B | Harvard | Founded 2004</h5>
+          <p>Facebook is a social network (web and mobile app) where people can connect with their friends.</p>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="whatsnext">
+          <h2>Now, where is the next Unicorn?</h2>
+          <p>
+            Thanks for viewing. This project was built by Guillaume Laliberté.
+          </p>
         </div>
       </div>
     </section>
+  </div>
   </div>
 
 
@@ -334,56 +361,14 @@
 
   <script type="text/javascript">
     $('a').smoothScroll();
-
-     // var spacers = $('.chapter'),
-     //     menu = $('.menu'),
-     //     $window = $(window),
-     //     showMenu = function() {
-     //         if (isHidden) {
-     //             isHidden = false;
-     //             menu.show();
-     //         }
-     //     },
-     //     hideMenu = function() {
-     //         if (!isHidden) {
-     //             isHidden = true;
-     //             menu.hide();
-     //         }
-     //     },
-     //     isHidden = true,
-     //     scrollTop;
-// 
-     // if (spacers.length) {
-     //     $window.on('scroll', function() {
-     //         var flag = false;
-    // 
-     //         scrollTop = $window.scrollTop();
-     //         $.each(spacers, function(i, spacer) {
-     //             var $spacer = $(spacer),
-     //                 offset = $spacer.offset().top;
-     //          
-     //             if (offset < scrollTop && offset + $spacer.height() > // scrollTop) {
-     //                 flag = true;
-     //                 return false;
-     //             }
-     //         });
-     //      
-     //         if (flag) {
-     //             showMenu();
-     //         } else {
-     //             hideMenu();
-     //         }
-     //     });
-     // }
-
-
   </script>
 
 
-  <script src = "js/stackedarea.js"></script>
   <script src = "js/datascript.js"></script>
-  <script src = "js/geomap.js"></script>
-  <script src = "js/table.js"></script>
+
+  <script src = "js/geomap_vis.js"></script>
+  <script src = "js/table_vis.js"></script>
+  <script src = "js/sankey_vis.js"></script>
   <script src = "js/script.js"></script>
   <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
