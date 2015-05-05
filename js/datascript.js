@@ -2,6 +2,7 @@
 /*
  * Data Script
  * Converts raw data to pretty JSON
+ * This script is just a base that is modified when needed.
  */
 
 

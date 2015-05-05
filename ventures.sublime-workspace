@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"sank",
+				"sankeyvis"
+			],
+			[
 				"get",
 				"getElementById"
 			],
@@ -510,10 +514,6 @@
 			[
 				"rig",
 				"right"
-			],
-			[
-				"oth",
-				"other_right"
 			]
 		]
 	},
@@ -632,22 +632,25 @@
 	],
 	"file_history":
 	[
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/js/geomap_vis.js",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/js/datascript.js",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/js/sankey_vis.js",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/index.html",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/js/script.js",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/css/style.css",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/dealsize.json",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/months.json",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/sankey.json",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/js/geomap.js",
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/libs/nv.d3.min.js",
 		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/most_funded.json",
 		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/js/table.js",
-		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/css/style.css",
-		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/index.html",
 		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/50cities.json",
-		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/js/datascript.js",
-		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/js/script.js",
-		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/js/geomap.js",
 		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/ventures.html",
 		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/hw/hw3/index.html",
-		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/sankey.json",
 		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/50cities.csv",
 		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/states.json",
 		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/js/stackedarea.js",
-		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/libs/nv.d3.min.js",
-		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/dealsize.json",
 		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/test.csv",
 		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/js/stacked.js",
 		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/js/exitsvis.js",
@@ -657,7 +660,6 @@
 		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/libs/sankey.js",
 		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/css/complement.css",
 		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/test.json",
-		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/months.json",
 		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/stacked.json",
 		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/stackedAreaData.json",
 		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 171/Ventures/data/s2.json",
@@ -757,9 +759,7 @@
 		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/7/BeeBouncy.ml",
 		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/7/Pond.ml",
 		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/7/BeeRandom.ml",
-		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/7/Makefile",
-		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/7/CarbonBased.ml",
-		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/7/Dust.ml"
+		"/Users/TheGuy/Box Sync/Dropbox/Études/Harvard/CS 51/glaliberte-cs51-psets/7/Makefile"
 	],
 	"find":
 	{
@@ -778,6 +778,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"publid",
+			"favi",
+			"nv-point-\"",
+			"console",
+			"nv-point",
+			"stackedarea",
+			"nv-point",
+			"stackedarea",
+			"nv-point",
+			"point",
+			"stackedarea",
+			"point",
+			"color",
 			"http",
 			"hbo",
 			"next",
@@ -892,20 +905,7 @@
 			"LaliberteBB",
 			"laliber",
 			"Fini",
-			"BBAgent",
-			"bbagent",
-			"bb",
-			"test",
-			"lookup (",
-			"print",
-			"insert",
-			"IntStringDictArg",
-			"height",
-			"fold",
-			"todo",
-			"upward",
-			"AssocListDict",
-			"dict."
+			"BBAgent"
 		],
 		"highlight": true,
 		"in_selection": false,
