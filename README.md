@@ -11,6 +11,7 @@ As a young entrepreneur, I have always been interested in these questions and in
 This is why I decided to create a visualization that would capture various dimensions of fundraising in the startup world. To me this project is not just school work: it is a tool I intend to use to comprehend how the startup scene is evolving, and so I can use that data to my advantage.
 
 [Here is the 2min video tour](https://youtu.be/dX-Ueq1erO0)
+
 [Ventures web page](http://didjeridou.github.io/cs171-pr-ventures/)
 
 # Project Structure
