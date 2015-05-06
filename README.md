@@ -10,6 +10,11 @@ As a young entrepreneur, I have always been interested in these questions and in
 
 This is why I decided to create a visualization that would capture various dimensions of fundraising in the startup world. To me this project is not just school work: it is a tool I intend to use to comprehend how the startup scene is evolving, and so I can use that data to my advantage.
 
+# The project in 10 seconds
+To experience Ventures, visit the Ventures web page (link below) and click on "Get Started". From there, play around the visualization in each Chapter to come up with your own insights or see what was discovered in the "Findings" section.
+
+When you are done with a Chapter, scroll down and click on "Next Chapter" to explore another facet of the startup investment ecosystem.
+
 [Here is the 2min video tour](https://youtu.be/dX-Ueq1erO0)
 
 [Ventures web page](http://didjeridou.github.io/cs171-pr-ventures/)
